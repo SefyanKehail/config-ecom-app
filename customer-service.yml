@@ -1,14 +1,4 @@
 spring:
-  jpa:
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MariaDBDialect
-    hibernate:
-      ddl-auto: create
-    show-sql: true
-  data:
-    rest:
-      base-path: /api
   datasource:
     password: root
     username: root

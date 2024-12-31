@@ -13,6 +13,16 @@ spring:
       enabled: false
     discovery:
       enabled: true
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  data:
+    rest:
+      base-path: /api
 eureka:
   client:
     service-url:
